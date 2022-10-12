@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1> <br>Faça parte do nosso time!</h1>
+            <img src="alien-science-animate (1).svg" class="login-imagem" alt="alien">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Login</h1>
+                <div id="msgError"></div>
+                <div class="textfield">
+                    <label id="userLabel" for="usuario">Usuário</label>
+                    <input id="usuario" type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label id="senhaLabel" for="senha">Senha</label>
+                    <input id="senha" type="password" name="senha" placeholder="Senha">
+                </div>
+                <input class="btn-login" type="button" value="Login" onclick="login()">
+                <div class='justify-center'>
+                   <hr id="hr">  
+                </div>
+                <p>Não tem uma conta?</p>
+                <a href="cadastro.html"> Cadastre-se</a>
+                <script src="login.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

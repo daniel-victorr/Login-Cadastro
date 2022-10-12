@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1> <br>Faça seu Cadastro!</h1>
+            <img src="virtual-reality-animate.svg" class="login-image" alt="alien">
+        </div>  
+        <div class="right-login">      
+            <div class="card-login">
+                <h1>Cadastrar</h1>
+                <div id="msgError"></div>
+                <div id="msgSuccess"></div>
+                <div class="textfield">
+                    <label id="nomeLabel" for="Nome">Nome</label>
+                    <input id="nome" type="text" name="nome" placeholder="Nome">
+                </div>
+                <div class="textfield">
+                    <label id="usuarioLabel" for="usuario">Usuário</label>
+                    <input id="usuario" type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label id="senhaLabel" for="senha">Senha</label>
+                    <input id="senha" type="password" name="senha" placeholder="Senha">
+                </div>
+                <div class="textfield">
+                    <label id="confirmarSenhaLabel" for="confirmarSenha">Confirmar Senha</label>
+                    <input id="confirmarSenha" type="password" name="confirmarsenha" placeholder="Confirmar Senha">
+                </div>
+                <input class="btn-cadastrar" type="button" value="Cadastrar" onclick="cadastrar()">
+                <script src="cadastro.js"></script>
+            </div>
+        </div>    
+    </div>    
+</body>
+</html>

@@ -1,4 +1,4 @@
-### Uma aplicação web realizada de cadastro e login, a fim do usuário se cadastrar e fazer o login.
+### Uma aplicação web de cadastro e login, a fim do usuário se cadastrar e fazer o login.
 
 
 <div align = "center">
